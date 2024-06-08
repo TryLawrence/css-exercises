@@ -17,6 +17,10 @@ body {
   font-size: 22px;
 }
 
+.para.small-para {
+  font-size: 14px;
+}
+
 .confirm {
   background: green;
   color: white;
