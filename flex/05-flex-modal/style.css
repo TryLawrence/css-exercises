@@ -20,6 +20,13 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 20px;
+  padding: 1em;
+}
+
+.modal :first-child {
+  flex-shrink: 0;
 }
 
 .icon {
@@ -33,6 +40,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header-close {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-close :last-child {
+  margin-left: auto;
+}
+
+.text {
+  margin: .7em 0 1em 0;
 }
 
 .close-button {
