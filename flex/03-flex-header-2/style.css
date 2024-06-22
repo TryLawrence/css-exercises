@@ -10,8 +10,11 @@ body {
 
 .header {
   background: white;
+  padding: 8px;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
 }
 
 .profile-image {
@@ -29,12 +32,18 @@ body {
   font-style: italic;
 }
 
+.links {
+  display: flex;
+  gap: 20px;
+}
+
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  
 }
 
 a {
@@ -45,4 +54,10 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.header-button {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
 }
